@@ -1,0 +1,335 @@
+# Abyssal - Complete Feature List
+
+## 🎯 Combat Features
+
+### Aimbot System
+- **Enable/Disable**: Toggle aimbot on/off with keybind
+- **Aimbot Types**:
+  - `Camera` - Manipulates camera rotation
+  - `Mouse` - Simulates mouse movement
+- **Target Selection**:
+  - Head (0) - Precision headshots
+  - Torso (1) - Body shots for reliability
+  - Hips (2) - Lower torso targeting
+  - Legs (3) - Leg targeting
+- **FOV Settings**:
+  - Enable FOV limiting
+  - Visualize FOV circle
+  - Adjustable FOV size
+  - FOV glow effect
+  - Custom FOV color
+- **Sticky Aim**: Lock onto target until released
+- **Smoothing**: Adjustable aim smoothing
+- **Prediction**: Lead target movement
+
+### Silent Aim
+- **Status**: Currently disabled - Major rework in progress
+- **Warning**: Popup notification on startup
+- Keybind support ready
+- Will support all target part options
+
+### Triggerbot
+- Auto-fire when crosshair is on enemy
+- Keybind toggle
+- Adjustable trigger delay
+- Team check support
+
+### Resolver
+- Predicts player movement
+- Anti-desync technology
+- Velocity calculation
+- Position interpolation
+
+## 👁️ Visual Features
+
+### ESP (Extra Sensory Perception)
+- **Box ESP**:
+  - 2D Boxes around players
+  - 3D Boxes (world-space)
+  - Corner boxes
+  - Filled boxes with transparency
+- **Health ESP**:
+  - Health bars
+  - Health percentage
+  - Color-coded (green→yellow→red)
+- **Name ESP**:
+  - Player names
+  - Display names
+  - Distance indicators
+- **Weapon ESP**:
+  - Tool/weapon names
+  - Tool icons
+- **Team ESP**:
+  - Team color indicators
+  - Friendly/enemy differentiation
+- **Skeleton ESP**:
+  - Bone connections
+  - Customizable thickness
+  - Color customization
+
+### Chams
+- 3D player highlighting
+- Depth-based rendering
+- Color customization
+- Opacity control
+- Works through walls
+
+### Tracers
+- Lines from screen center to players
+- Distance-based color
+- Team color support
+- Customizable thickness
+
+### Radar
+- Minimap-style player tracking
+- Zoom levels
+- Team colors
+- Distance circles
+
+### Crosshair
+- Custom crosshair styles
+- Size and color customization
+- Dot, Cross, Circle styles
+- Dynamic color
+
+### FOV Circle
+- Visual field of view indicator
+- Glow effects
+- Rainbow mode
+- Adjustable radius
+- Custom colors
+
+### Aim Viewer
+- See where enemies are looking
+- Direction indicators
+- Line visualization
+- Helpful for peeking
+
+## 🛠️ Miscellaneous Features
+
+### Movement
+- **Speed Hack**:
+  - Walk speed modifier
+  - Fly speed control
+  - Jump power adjustment
+- **Flight**:
+  - Free-flight mode
+  - Speed control
+  - Smooth movement
+- **No Clip**:
+  - Walk through walls
+  - Collision bypass
+- **Infinite Jump**:
+  - Jump while airborne
+  - Customizable jump height
+- **Platform**:
+  - Create invisible platforms
+  - Adjustable height
+
+### Desync System (6 Modes)
+1. **Basic** - Simple bandwidth manipulation
+2. **Interval** - Pulse-based lag switching
+   - Adjustable pulse interval
+   - Visual indicators
+3. **Jitter** - Random bandwidth values
+   - Position jitter effect
+   - Unpredictable movement
+4. **Advanced** - Combination of multiple techniques
+   - Interval + Jitter
+   - Maximum effectiveness
+5. **Shadow Clone** - Extreme negative bandwidth values
+   - Creates shadow clone effect
+   - Maximum position desync
+6. **Jutsu Desync** - WorldStep manipulation
+   - Uses WorldStepMax/WorldStepMaxRate
+   - Requires offset configuration
+   - Most advanced technique
+
+### Desync Visualizer
+- **Badge** (Top-Left) - Shows desync status
+- **Ring** (Crosshair) - Circle indicator
+- **Character Highlight** - Shows original position
+- Color-coded status (lagging/normal)
+
+### Camera
+- **Third Person**:
+  - Distance control
+  - Angle adjustment
+  - Smooth transitions
+- **FOV Changer**:
+  - Custom field of view
+  - Dynamic adjustments
+- **Camera Lock**:
+  - Lock to specific players
+  - Spectator mode
+
+### Utility
+- **Anti-AFK**: Prevent auto-kick
+- **Auto Reload**: Automatic weapon reloading
+- **Remove Textures**: Reduce visual clutter
+- **Fullbright**: Maximum brightness
+- **Atmosphere Control**: Lighting manipulation
+- **Remove Fog**: Clear visibility
+- **Ambient Color**: Custom lighting
+
+## ⚙️ Settings & Configuration
+
+### Config System
+- **Save Configs**: Store current settings
+- **Load Configs**: Restore saved settings
+- **Delete Configs**: Remove unwanted configs
+- **Auto-Save**: Automatic configuration saving
+- **Multiple Profiles**: Unlimited config slots
+
+### Keybinds
+- Fully customizable keybinds for all features
+- Hold, Toggle, and Always modes
+- Visual keybind editor
+- Conflict detection
+- Saved with configurations
+
+### UI Customization
+- **Theme Colors**: Purple accent (#9A7FAC)
+- **Window Opacity**: Adjustable transparency
+- **Font Sizes**: Scalable UI
+- **Layout**: Organized tab system
+- **Animations**: Smooth transitions
+
+## 🔐 Security & Protection
+
+### Anti-Debug
+- IsDebuggerPresent detection
+- Remote debugger detection
+- Process scanner (CheatEngine, x64dbg, IDA, etc.)
+- Hardware breakpoint detection
+- Memory breakpoint detection
+- Timing attack detection
+- VMProtect integration
+
+### Authentication
+- KeyAuth integration
+- Login/Register system
+- Session management
+- Credential storage (encrypted)
+- Auto-login support
+- License system ready
+
+### Code Protection
+- VMProtect virtualization
+- String encryption (skCrypt)
+- Control flow obfuscation
+- No debug symbols in release
+- Stripped exports
+
+## 📊 Player List System
+- View all players in server
+- Player status (Enemy, Friendly, Neutral)
+- Priority targeting
+- Whitelist/Blacklist
+- Health monitoring
+- Distance tracking
+- Team assignments
+
+## 🎮 Controls
+
+### Default Keybinds
+- **INSERT** - Toggle Menu
+- **Aimbot** - Configurable (default: Right Mouse)
+- **Silent Aim** - Configurable (default: Mouse 4)
+- **Triggerbot** - Configurable (default: Mouse 5)
+- **Desync** - Configurable (default: Left Shift)
+- **Flight** - Configurable (default: F)
+- **Speed** - Configurable (default: V)
+
+*All keybinds can be customized in the Settings tab*
+
+## 🔄 Update Roadmap
+
+### Coming Soon
+- ✅ Silent Aim rework (complete overhaul)
+- 🔄 Additional aimbot smoothing options
+- 🔄 More desync modes
+- 🔄 Enhanced ESP options
+- 🔄 Performance optimizations
+- 🔄 Additional game support
+- 🔄 WallBang
+
+
+### Recently Added
+- ✨ Target Part combo selector
+- ✨ Silent Aim warning system
+- ✨ Jutsu Desync mode
+- ✨ UI polish
+- ✨ Removed debug outputs
+
+## 💡 Tips for Best Performance
+
+1. **Use appropriate FOV** - Lower FOV = better accuracy
+2. **Choose right aimbot type** - Camera for legit, Mouse for rage
+3. **Configure desync** - Test different modes for your playstyle
+4. **Adjust visuals** - Disable unused ESP elements for better FPS
+5. **Save configs** - Create profiles for different games/scenarios
+
+## ⚠️ Known Issues
+
+- Silent Aim currently non-functional (rework in progress)
+- Jutsu Desync requires offset updates to work
+- Some games may have additional anti-cheat
+
+## 📝 Technical Information
+
+### System Requirements
+- **OS**: Windows 10/11 (64-bit)
+- **RAM**: 4GB minimum
+- **GPU**: DirectX 11 compatible
+- **Privileges**: Administrator required
+
+### Architecture
+- **Language**: C++20
+- **UI Framework**: Dear ImGui
+- **Graphics API**: DirectX 11
+- **Font Rendering**: FreeType
+- **Protection**: VMProtect
+- **Authentication**: KeyAuth API
+
+### File Structure
+```
+release/
+├── abyssal.exe          # Main executable
+├── VMProtectSDK64.dll   # Protection library
+└── imgui.ini            # UI settings (auto-generated)
+```
+
+## 🎯 For Customers
+
+This is a premium product with:
+- ✅ Professional code quality
+- ✅ Regular updates and support
+- ✅ Secure authentication system
+- ✅ Anti-cheat bypass techniques
+- ✅ Clean, modern interface
+- ✅ Extensive feature set
+- ✅ Active development
+
+### What You Get
+1. **abyssal.exe** - Fully compiled executable
+2. **VMProtectSDK64.dll** - Required dependency
+3. **Documentation** - This README and feature list
+4. **Support** - Access to updates and help
+5. **License** - KeyAuth-based authentication
+
+## 📞 Contact & Support
+
+For support, licensing, or inquiries:
+- **Website**: https://abyssal.xyz
+- **Discord**: Available to customers
+- **Email**: support@abyssal.xyz
+
+---
+
+**Version**: 1.0  
+**Build**: Release x64  
+**Last Updated**: October 2025  
+
+*© 2025 Abyssal.xyz - All Rights Reserved*
+
